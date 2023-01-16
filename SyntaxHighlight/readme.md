@@ -1,0 +1,24 @@
+# UtilityBelt/SyntaxHighlight
+
+## Usage
+```php
+echo SyntaxHighlight::process( $your_code );
+```
+
+## CSS
+```css
+pre { 
+	font-family: 'Courier New', 'Bitstream Vera Sans Mono', 'monospace'; 
+	font-size: 9pt;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 0.4em;
+	color: #fff;
+}
+pre span.N{ color:#f2c47f; } /* Numbers */
+pre span.S{ color:#42ff00; } /* Strings */
+pre span.C{ color:#838383; } /* Comments */
+pre span.K{ color:#ff0078; } /* Keywords */
+pre span.V{ color:#70d6ff; } /* Vars */
+pre span.D{ color:#ff9a5d; } /* Defines */
+```
